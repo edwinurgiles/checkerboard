@@ -18,11 +18,12 @@ for y in range(-160,160,80):
         turtle.penup()
         turtle.goto(x,y)
         
-for k in range(4):
-    turtle.forward(40)
-    turtle.left(90)
 
-turtle.end_fill()       
+        for k in range(4):
+            turtle.forward(40)
+            turtle.left(90)
+
+        turtle.end_fill()       
 
 for y in range(-120,160,80):
     for x in range(-120,160,80):
